@@ -4,3 +4,5 @@ dotnet: 2.1
 
 script:
  - dotnet build
+ - dotnet test name-sorter-tests/name-sorter-tests.csproj
+ - dotnet test name-sorter.Data-tests/name-sorter.Data-tests.csproj
