@@ -21,3 +21,6 @@ The following is project layout:
 | name-sorter.Common | This is a **cross cutting concern** and its used accross the layer. All content management is done here. |
 | name-sorter.Data | The responsibility of this project is to perform data operations (like reading data and writing data to the file) |
 | name-sorter.Data.Tests | The Unit tests of name-sorter.Data resides here |
+
+### Build Pipeline
+The project is using travis CI tool which is configured to build the project and run the specified tests using the .travis.yml file
