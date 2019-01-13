@@ -25,7 +25,7 @@ namespace NameSorter.Data_testss
             var sut = new FileOperations(mockLogger.Object);
 
             // Act
-            var result = sut.ReadFile(Path.GetFullPath(@"..\\..\\..\\test-unsorted-names-list.txt"));
+            var result = sut.ReadFile(Path.GetFullPath(@"..//..//..//test-unsorted-names-list.txt"));
 
             // Assert
             result.Should().NotBeNullOrEmpty();
@@ -45,7 +45,7 @@ namespace NameSorter.Data_testss
         [Fact]
         public void WriteNamesToFile_WhenFinished_VerifyFileExistsWithCorrectNames()
         {
-            var path = Path.GetFullPath("..\\..\\..\\writeNamesToFileTestFile.txt");
+            var path = Path.GetFullPath("..//..//..//writeNamesToFileTestFile.txt");
             try
             {
                 // Arrange
